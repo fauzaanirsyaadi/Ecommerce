@@ -49,3 +49,13 @@ nonactive virtualenv
 -- running code -- 
 flask run
 
+repo seting
+- git clone
+- git checkout branctname
+
+- git add .
+- git commit -m "commend"
+- git fetch origin bratchname
+- git pull origin bratchname
+- git push -u origin bratchname
+
