@@ -1,3 +1,4 @@
+
 persyaratan 
 1. virtual env
 2. pip
@@ -8,19 +9,18 @@ persyaratan
 7. postgresql
 8. web browser
 
-   
+- mkdir nama_project
+- cd nama_project
 --berjalan dalam cmd--
 
 
 instalasi virtualenv dan setup
 - pip install virtualenv
 - virtualenv --version 
-- mkdir nama_project
-- cd nama_project
-- virtualenv env
+- virtualenv env atau python -m venv myvenv
 
 beberapa cara activkan env (windows)
-- env\Scripts\activate.bat
+- env\Scripts\activate.bat atau myvenv\Scripts\activate.bat
 
 sortcut installation syntac (in env):
 pip install -r requirements.txt 
@@ -53,9 +53,8 @@ repo seting
 - git clone
 - git checkout branctname
 
-- git add .
+- git add .-
 - git commit -m "commend"
 - git fetch origin bratchname
 - git pull origin bratchname
 - git push -u origin bratchname
-
