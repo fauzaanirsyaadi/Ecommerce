@@ -5,6 +5,7 @@ Flask-Limiter
 Flask-Migrate
 Flask-SQLAlchemy
 Flask-UUID
+Flask-wtf
 greenlet
 itsdangerous
 Jinja2
